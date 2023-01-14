@@ -5136,11 +5136,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1"/>
-<part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1"/>
-<part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1"/>
-<part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1"/>
-<part name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1"/>
+<part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="XL-3216WWC"/>
+<part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="XL-3216WWC"/>
+<part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="XL-3216WWC"/>
+<part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="XL-3216WWC"/>
+<part name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="XL-3216WWC"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22R"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5157,31 +5157,31 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="2.54" y="0" smashed="yes">
-<attribute name="NAME" x="-0.889" y="-4.572" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="4.445" y="-4.572" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="NAME" x="3.556" y="-4.699" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-3.175" y="0.508" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="D2" gate="G$1" x="10.16" y="0" smashed="yes">
-<attribute name="NAME" x="6.731" y="-4.572" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="12.065" y="-4.572" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="NAME" x="11.176" y="-4.445" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="4.445" y="0.508" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="D3" gate="G$1" x="17.78" y="0" smashed="yes">
-<attribute name="NAME" x="14.351" y="-4.572" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="19.685" y="-4.572" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="NAME" x="18.796" y="-4.445" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="14.605" y="0.508" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="D4" gate="G$1" x="25.4" y="0" smashed="yes">
-<attribute name="NAME" x="21.971" y="-4.572" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="27.305" y="-4.572" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="NAME" x="26.67" y="-4.445" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="24.511" y="3.81" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="D5" gate="G$1" x="33.02" y="0" smashed="yes">
-<attribute name="NAME" x="29.591" y="-4.572" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="34.925" y="-4.572" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="NAME" x="34.798" y="-5.715" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="32.131" y="3.048" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="R1" gate="G$1" x="17.78" y="-10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.2814" y="-13.97" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="21.082" y="-13.97" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="20.066" y="-11.4554" size="1.778" layer="95"/>
+<attribute name="VALUE" x="20.066" y="-14.224" size="1.778" layer="96"/>
 </instance>
-<instance part="P+1" gate="1" x="17.78" y="10.16" smashed="yes">
-<attribute name="VALUE" x="15.24" y="5.08" size="1.778" layer="96" rot="R90"/>
+<instance part="P+1" gate="1" x="17.78" y="25.4" smashed="yes">
+<attribute name="VALUE" x="15.748" y="26.416" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="17.78" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="15.24" y="-25.4" size="1.778" layer="96"/>
@@ -5192,8 +5192,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND3" gate="1" x="60.96" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="58.42" y="-5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="1" x="45.72" y="5.08" smashed="yes">
-<attribute name="VALUE" x="43.18" y="0" size="1.778" layer="96" rot="R90"/>
+<instance part="P+2" gate="1" x="45.72" y="10.16" smashed="yes">
+<attribute name="VALUE" x="43.688" y="11.176" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="-1" x="43.18" y="2.54" smashed="yes">
 <attribute name="NAME" x="43.18" y="1.905" size="1.016" layer="95" rot="R180" align="center-left"/>
@@ -5207,8 +5207,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="J2" gate="-2" x="58.42" y="0" smashed="yes">
 <attribute name="NAME" x="58.42" y="-0.635" size="1.016" layer="95" rot="R180" align="center-left"/>
 </instance>
-<instance part="P+3" gate="1" x="60.96" y="5.08" smashed="yes">
-<attribute name="VALUE" x="58.42" y="0" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="1" x="60.96" y="10.16" smashed="yes">
+<attribute name="VALUE" x="58.928" y="11.176" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5228,16 +5228,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="25.4" y1="2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
 <junction x="25.4" y="2.54"/>
-<wire x1="17.78" y1="2.54" x2="17.78" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="J1" gate="-1" pin="P"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
+<wire x1="45.72" y1="7.62" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="-1" pin="P"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="60.96" y1="7.62" x2="60.96" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
