@@ -5077,133 +5077,48 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
-<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
-This library contains electrically-functional connectors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<library name="con-JST-SH">
 <packages>
-<package name="JST-2-SMD" urn="urn:adsk.eagle:footprint:37657/1" library_version="1">
-<description>&lt;h3&gt;JST-Right Angle Male Header SMT&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 2mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”http://www.4uconnector.com/online/object/4udrawing/20404.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
-&lt;li&gt;JST_2MM_MALE&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-4" y1="-1" x2="-4" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-4.5" x2="-3.2" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-3.2" y1="-4.5" x2="-3.2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3.2" y1="-2" x2="-2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="2" y1="-2" x2="3.2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="3.2" y1="-2" x2="3.2" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="3.2" y1="-4.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="4" y1="-4.5" x2="4" y2="-1" width="0.2032" layer="21"/>
-<wire x1="2" y1="3" x2="-2" y2="3" width="0.2032" layer="21"/>
-<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<text x="-1.397" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="0.635" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<package name="SM02B-SRSS-TB">
+<description>JST-SH (1.25mm) 5-pin surface-mount right-angle Wire-Board Connector</description>
+<smd name="M1" x="1.8" y="0" dx="1.2" dy="1.8" layer="1"/>
+<smd name="M2" x="-1.8" y="0" dx="1.2" dy="1.8" layer="1"/>
+<smd name="1" x="-0.5" y="4.675" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="0.5" y="4.675" dx="0.6" dy="1.55" layer="1"/>
+<wire x1="-2" y1="-0.5" x2="2" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="2" y1="-0.5" x2="2" y2="4.25" width="0.127" layer="21"/>
+<wire x1="2" y1="4.25" x2="-2" y2="4.25" width="0.127" layer="21"/>
+<wire x1="-2" y1="4.25" x2="-2" y2="-0.5" width="0.127" layer="21"/>
+<text x="0" y="6" size="0.6" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-2.25" y1="-1" x2="2.25" y2="4.5" layer="39"/>
+<rectangle x1="-2.5" y1="-6" x2="2.5" y2="-1" layer="39"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="JST-2-SMD" urn="urn:adsk.eagle:package:38042/1" type="box" library_version="1">
-<description>JST-Right Angle Male Header SMT
-Specifications:
-Pin count: 2
-Pin pitch: 2mm
-
-Datasheet referenced for footprint
-Example device(s):
-CONN_02
-JST_2MM_MALE
-</description>
-<packageinstances>
-<packageinstance name="JST-2-SMD"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="JST_2MM_MALE" urn="urn:adsk.eagle:symbol:37934/1" library_version="1">
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="1.778" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.778" x2="-2.54" y2="3.302" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.302" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="3.302" width="0.254" layer="94"/>
-<wire x1="5.08" y1="3.302" x2="5.08" y2="1.778" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.778" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="4.064" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="4.064" y1="-2.54" x2="4.064" y2="0" width="0.254" layer="94"/>
-<wire x1="4.064" y1="0" x2="-1.524" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.778" x2="-1.778" y2="1.778" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="1.778" x2="-1.778" y2="3.302" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="3.302" x2="-2.54" y2="3.302" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.778" x2="4.318" y2="1.778" width="0.254" layer="94"/>
-<wire x1="4.318" y1="1.778" x2="4.318" y2="3.302" width="0.254" layer="94"/>
-<wire x1="4.318" y1="3.302" x2="5.08" y2="3.302" width="0.254" layer="94"/>
-<wire x1="2.032" y1="1.016" x2="3.048" y2="1.016" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.508" x2="2.54" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="1.524" width="0.254" layer="94"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
-<pin name="+" x="2.54" y="-5.08" visible="off" length="middle" rot="R90"/>
-<pin name="PAD2" x="5.08" y="2.54" visible="off" length="point" rot="R90"/>
-<pin name="PAD1" x="-2.54" y="2.54" visible="off" length="point" rot="R90"/>
-<text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<symbol name="PIN">
+<pin name="P" x="2.54" y="0" visible="pad" length="short" rot="R180"/>
+<text x="0" y="-0.635" size="1.016" layer="95" rot="R180" align="center-left">&gt;NAME</text>
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.508" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JST_2MM_MALE" urn="urn:adsk.eagle:component:38321/1" prefix="J" uservalue="yes" library_version="1">
-<description>&lt;h3&gt;JST 2MM MALE RA CONNECTOR&lt;/h3&gt;
-Two pin, compact surface mount connector. Commonly used as a battery input connection point. We really like the solid locking feeling and high current rating on these small connectors. We use these all the time as battery connectors. Mates to single-cell LiPo batteries.
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;Here is the connector we sell at SparkFun:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8612"&gt;JST Right Angle Connector - White&lt;/a&gt; (PRT-08612)&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.sparkfun.com/datasheets/Prototyping/Connectors/JST-Horizontal.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;It was used on these SparkFun products:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11214"&gt;SparkFun MOSFET Power Controller&lt;/a&gt; (PRT-11214)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13777"&gt;SparkFun Battery Babysitter - LiPo Battery Manager&lt;/a&gt; (PRT-13777)&lt;/li&gt;
-&lt;li&gt;And many, many others that required a lipo battery connection.&lt;/li&gt;
-&lt;/ul&gt;</description>
+<deviceset name="SM02B-SRSS-TB" prefix="J">
 <gates>
-<gate name="G$1" symbol="JST_2MM_MALE" x="0" y="0"/>
+<gate name="-1" symbol="PIN" x="0" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="PIN" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="M" symbol="PIN" x="0" y="-10.16" addlevel="request"/>
 </gates>
 <devices>
-<device name="" package="JST-2-SMD">
+<device name="" package="SM02B-SRSS-TB">
 <connects>
-<connect gate="G$1" pin="+" pad="2"/>
-<connect gate="G$1" pin="-" pad="1"/>
-<connect gate="G$1" pin="PAD1" pad="NC1"/>
-<connect gate="G$1" pin="PAD2" pad="NC2"/>
+<connect gate="-1" pin="P" pad="1"/>
+<connect gate="-2" pin="P" pad="2"/>
+<connect gate="M" pin="P" pad="M1 M2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38042/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="CONN-11443"/>
-<attribute name="SF_ID" value="PRT-08612" constant="no"/>
+<attribute name="MF" value="JST"/>
+<attribute name="MPN" value="SM02B-SRSS-TB"/>
 </technology>
 </technologies>
 </device>
@@ -5229,11 +5144,12 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22R"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="JST_2MM_MALE" device="" package3d_urn="urn:adsk.eagle:package:38042/1"/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="JST_2MM_MALE" device="" package3d_urn="urn:adsk.eagle:package:38042/1"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="J1" library="con-JST-SH" deviceset="SM02B-SRSS-TB" device=""/>
+<part name="J2" library="con-JST-SH" deviceset="SM02B-SRSS-TB" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5270,20 +5186,29 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <instance part="GND1" gate="1" x="17.78" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="15.24" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="45.72" y="-2.54" smashed="yes">
-<attribute name="NAME" x="43.18" y="3.302" size="1.778" layer="95"/>
+<instance part="GND2" gate="1" x="45.72" y="-2.54" smashed="yes">
+<attribute name="VALUE" x="43.18" y="-5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="J2" gate="G$1" x="58.42" y="-2.54" smashed="yes">
-<attribute name="NAME" x="55.88" y="3.302" size="1.778" layer="95"/>
+<instance part="GND3" gate="1" x="60.96" y="-2.54" smashed="yes">
+<attribute name="VALUE" x="58.42" y="-5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="45.72" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="43.18" y="-12.7" size="1.778" layer="96"/>
+<instance part="P+2" gate="1" x="45.72" y="5.08" smashed="yes">
+<attribute name="VALUE" x="43.18" y="0" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND3" gate="1" x="58.42" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="55.88" y="-12.7" size="1.778" layer="96"/>
+<instance part="J1" gate="-1" x="43.18" y="2.54" smashed="yes">
+<attribute name="NAME" x="43.18" y="1.905" size="1.016" layer="95" rot="R180" align="center-left"/>
 </instance>
-<instance part="P+2" gate="1" x="53.34" y="12.7" smashed="yes">
-<attribute name="VALUE" x="50.8" y="7.62" size="1.778" layer="96" rot="R90"/>
+<instance part="J1" gate="-2" x="43.18" y="0" smashed="yes">
+<attribute name="NAME" x="43.18" y="-0.635" size="1.016" layer="95" rot="R180" align="center-left"/>
+</instance>
+<instance part="J2" gate="-1" x="58.42" y="2.54" smashed="yes">
+<attribute name="NAME" x="58.42" y="1.905" size="1.016" layer="95" rot="R180" align="center-left"/>
+</instance>
+<instance part="J2" gate="-2" x="58.42" y="0" smashed="yes">
+<attribute name="NAME" x="58.42" y="-0.635" size="1.016" layer="95" rot="R180" align="center-left"/>
+</instance>
+<instance part="P+3" gate="1" x="60.96" y="5.08" smashed="yes">
+<attribute name="VALUE" x="58.42" y="0" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -5307,13 +5232,12 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="+"/>
-<pinref part="J2" gate="G$1" pin="+"/>
-<wire x1="48.26" y1="-7.62" x2="53.34" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="-7.62" x2="60.96" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="-7.62" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
-<junction x="53.34" y="-7.62"/>
+<pinref part="J1" gate="-1" pin="P"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="J2" gate="-1" pin="P"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5340,11 +5264,11 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="-"/>
+<pinref part="J1" gate="-2" pin="P"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="-"/>
+<pinref part="J2" gate="-2" pin="P"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
